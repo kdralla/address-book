@@ -1,0 +1,8 @@
+<div highlight id="mySidenav" class="sidenav {{shouldShow ? 'sideNavOpen' : 'sideNavClose'}}" *ngIf="shouldShow">
+  <a class="closebtn" (click)="closeSidebar()">&times;</a>
+  <i>Contact details for: {{ contact.name }}</i>
+  <p>Name: <b>{{ contact.name }}</b></p>
+  <p>Phone Number: <b>{{ contact.phone }}</b></p>
+  <p>City: <b>{{ contact.city }}</b></p>
+  <p>Address: <b>{{ contact.address }}</b></p>
+</div>

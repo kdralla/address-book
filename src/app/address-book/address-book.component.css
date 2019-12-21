@@ -1,0 +1,61 @@
+.form-group {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  margin: 1rem 1rem 0 0;
+}
+
+.save-button {
+  margin: 10px auto;
+  width: 100px;
+  padding: 15px;
+  background-color: #86ac2b;
+}
+
+label {
+  display: block;
+  text-align: center;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+.alert {
+  color: red;
+  font-style: italic;
+}
+
+.edit {
+  float: right;
+  color: #039be5;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.msg {
+  margin: 10px 0;
+}
+
+h3 {
+  padding: 15px;
+}

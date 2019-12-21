@@ -1,0 +1,8 @@
+<section *ngIf="contacts">
+  <h3 highlight>Contact List</h3>
+  <ul>
+    <li *ngFor='let contact of contacts | async'>
+      <a (click)="getContactDetails(contact)">{{contact.name}}</a>
+    </li>
+  </ul>
+</section>
